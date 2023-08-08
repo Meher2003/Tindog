@@ -1,0 +1,166 @@
+/* General */
+
+h1{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+h2{
+  font-family: 'Montserrat';
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+h3{
+  line-height: 4rem;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+/* tittle Section */
+
+#title{
+  background-color: #FF4C68;
+  color: white;
+}
+.container-fluid{
+  padding: 5% 15% 7%;
+}
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.nav-link{
+  margin: 0 20px;
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+.download-button{
+  margin: 40px 15px 0 0;
+}
+.tindog_img{
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  margin: 0 auto;
+  right: 25%;
+}
+
+/* feature Section */
+
+#features{
+  padding: 7% 15%;
+  font-family: 'Montserrat';
+  background-color: #FFFF;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding:5%;
+  line-height: 2;
+}
+.icon{
+  color: #EF8172;
+  padding-bottom: 1rem;
+}
+.icon:hover{
+  color: #FF4C68;
+}
+.feature-h3{
+  font-size: 1.5rem;
+}
+.feature-p{
+  color: #8F8F8F;
+}
+
+/* testimonials Section */
+
+#testimonials{
+  background-color:#EF8172;
+  color: white;
+  text-align: center;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonials-img{
+  width: 10%;
+  border-radius: 100%;
+}
+
+/* press Section */
+
+#press{
+  background-color: #EE8172;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.press-img{
+  width: 12%;
+  margin: 20px 20px 20px;
+}
+
+/* pricing Section */
+
+#pricing{
+  font-family: 'Montserrat';
+  text-align: center;
+  padding: 100px;
+}
+.card-loc{
+  padding: 3% 2%;
+}
+
+/* cta Section */
+
+#cta{
+  text-align: center;
+  font-family: 'Montserrat';
+  color: #FFFF;
+}
+.download-button-b{
+  margin: 6% 1% 3%;
+}
+.container-fluid1{
+  padding: 5% 25%;
+  background-color: #FF4C68;
+}
+
+/* footer Section */
+
+.footer-p{
+  color: #8F8F8F;
+}
+.contact-icon{
+  display: inline-block;
+  margin: 0 1%;
+}
+.container-fluid2{
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #FFFF;
+}
+
+/* Media Query */
+
+@media (max-width:1276px) {
+
+  .tindog_img{
+    position: static;
+    transform: rotate(0);
+    width: 60%;
+    padding-top: 35px;
+  }
+
+  #title{
+    text-align: center;
+  }
+
+}
